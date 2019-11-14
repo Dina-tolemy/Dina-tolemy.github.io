@@ -60,18 +60,23 @@ h2{
     width: 300px;
     height: 300px;
 }
+#pics{
+
+width: 300px;
+height: 300px;
+position: relative;
+}
 
 .footer{
     background: grey;
     text-align: center;
     border-top: 8px solid #4aaaa5;
     position: fixed;
+    color: white;
+    padding: 5px; 
     left: 0;
     bottom: 0;
-    width: 100%;
-    color: white;
-    padding: 5px;
-    
+    width: 100%; 
 }
 
 body{
@@ -95,14 +100,12 @@ p{
     font-size: 20px;
     color:gray;
 }
-.container
+.container1
 {
 border-top: 2px solid lightgrey;
 margin-top: 10px;
 padding: 20px;
 position: relative;
-
-
 }
 textarea{
 
@@ -126,15 +129,15 @@ ul.twocolumns li {
 }
 
 .floattxt{
- position: absolute;
+  position: absolute;
   text-align: center;
   background-color: #4aaaa5;
   color: white;
-  bottom: -300px;
-  left: 10px;
  font-size: 20px;
  padding: 20px;
- width: 260px;
+ width: 250px;
+ bottom: 10px;
+ left: 150px;
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -152,5 +155,4 @@ ul.twocolumns li {
     align-content: center;
     position: relative;
   }
-
 }
