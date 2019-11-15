@@ -37,15 +37,24 @@ h2{
     background:  #4aaaa5;
     color: white;
     width: 100%;
-    padding: 17px;
+    padding: 15px;
     text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    position: relative;
+    margin: 0;
+    border: 1px solid lightgray;
+}
+#navbarText{
+
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    
 }
 .wrapper
 {
     color: grey;
-    background:white;
+    background:#f8f9fa;
     align-content: center;
     padding: 20px;
     position: fixed;
@@ -155,10 +164,18 @@ ul.twocolumns li {
     align-content: center;
     position: relative;
   }
-.container{
+ .list {
 
-    width: 600px;
-     position: relative;
-}
+        list-style: none;
+        display: inline;
+        position: absolute;
+        right: 20%;
+        top: 15%;
+    
+    
 
+    }
+   .list li{
+        display: inline;
+   }
 }
