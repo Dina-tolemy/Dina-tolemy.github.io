@@ -155,4 +155,10 @@ ul.twocolumns li {
     align-content: center;
     position: relative;
   }
+.container{
+
+    width: 600px;
+     position: relative;
+}
+
 }
