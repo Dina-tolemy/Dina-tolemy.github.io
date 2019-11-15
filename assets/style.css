@@ -31,6 +31,7 @@ h2{
     color:  #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     padding: 15px;
+    border-bottom-style: lightgrey solid 1px;
 
 }
 #name{
@@ -135,7 +136,9 @@ ul.twocolumns li {
   
   text-align: center;
   color: white;
+  border-top: lightgray solid;
 }
+body > .container{padding-top: 60px;}
 
 .floattxt{
   position: absolute;
@@ -149,6 +152,10 @@ ul.twocolumns li {
  left: 150px;
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.mainparagraph{
+
+    border-top: lightgray solid;
+}
 
 .list > li:not(:last-child)::after {
     content: "|";
@@ -156,26 +163,18 @@ ul.twocolumns li {
     color: lightgray;
 }
 
-@media screen and (max-width: 768px) {
 
+ <!-- @media screen and (max-width: 768px) {
 
   .wrapper {
     width: 600px;
     align-content: center;
-    position: relative;
-  }
+    position: relative;}
  .list {
-
-        list-style: none;
         display: inline;
-        position: absolute;
-        right: 20%;
-        top: 15%;
-    
-    
+ }
+.navbar{
 
-    }
-   .list li{
-        display: inline;
-   }
+    width: 100%;
+}
 }
